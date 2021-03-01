@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{84:function(o){o.exports=JSON.parse('{"allTagsPath":"/svelte-cookbook/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/svelte-cookbook/blog/tags/docusaurus"}')}}]);
