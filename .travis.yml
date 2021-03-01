@@ -13,11 +13,11 @@ script:
 after_script:
   - cd ./build
   - git init
-  - git config user.name "wsafight"
-  - git config user.email "984292420@qq.com"
+  - git config user.name ${U_NAME}
+  - git config user.email ${U_EMAIL}
   - git add .
-  - git commit -m "svelte.cookbook"
-  - git push --force --quiet "https://${token}@https://github.com/wsafight/svelte-cookbooks gh-pages
+  - git commit -m "auto publish svelte.cookbook"
+  - git push --force --quiet "https://${token}@${GH_REF} main:${P_branch}
 # E: Build LifeCycle
 
 # 只对某个分支行为生效
