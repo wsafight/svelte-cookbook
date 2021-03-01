@@ -17,7 +17,7 @@ after_script:
   - git config user.email "984292420@qq.com"
   - git add .
   - git commit -m "svelte.cookbook"
-  - git push --force --quiet "https://${token}@https://github.com/wsafight/svelte-cookbooks master:gh-pages
+  - git push --force --quiet "https://${token}@https://github.com/wsafight/svelte-cookbooks gh-pages
 # E: Build LifeCycle
 
 # 只对某个分支行为生效
