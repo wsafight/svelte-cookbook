@@ -1,2 +1,3 @@
-# svelte-introduction-to-abandonment
+# svelte-cookbook
+
 Svelet: From introduction to abandonment
