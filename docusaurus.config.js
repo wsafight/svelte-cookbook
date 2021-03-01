@@ -2,7 +2,7 @@ module.exports = {
   title: 'Svelte-Cookbook',
   tagline: 'Let svelte learn better',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/svelte-cookbook/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
