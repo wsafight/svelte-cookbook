@@ -1,0 +1,26 @@
+language: node_js
+# nodejs版本
+node_js:
+  - '14.16.0'
+
+# S: Build Lifecycle
+install:
+  - npm install
+script:
+  - npm run build
+
+# 这个是不是看着很熟悉？
+after_script:
+  - cd ./build
+  - git init
+  - git config user.name "wsafight"
+  - git config user.email "984292420@qq.com"
+  - git add .
+  - git commit -m "svelte.cookbook"
+  - git push --force --quiet "https://${token}@https://github.com/wsafight/svelte-cookbooks master:gh-pages
+# E: Build LifeCycle
+
+# 只对某个分支行为生效
+branches:
+  only:
+    - main
